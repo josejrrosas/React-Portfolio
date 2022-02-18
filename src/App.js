@@ -1,6 +1,9 @@
 import React from 'react';
 import { ThemeProvider } from "styled-components";
 import { useState } from "react"
+import Toggle from "./Components/Toggle"
+import GlobalStyles from "./Components/styles/Global"
+import Header from "./Components/Header.js";
 
 const LightTheme = {
   pageBackground: "white",
@@ -22,7 +25,9 @@ function App() {
   const [theme, setTheme] = useState("light")
   return (
     <ThemeProvider theme = {themes[theme]}>
-      <h1>Theme Builder</h1>
+      <GlobalStyles/>
+      <Toggle theme = {theme} setTheme = {setTheme} />
+      <Header />
     </ThemeProvider>
   );
 }

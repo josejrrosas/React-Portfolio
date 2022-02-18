@@ -1,19 +1,29 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import { StyledHeader, Nav } from "./styles/Header.styled";
 
-function Header(props) {
-    function changeTheme(){
-        if(props.theme === "light"){
-            props.theme("dark");
-        }
-        else{
-            props.theme("light")
-        }
-    }
-
+const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <StyledHeader>
+      <Nav>
+        <ul>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </Nav>
 
-export default Header
+      <div>
+        <h1>My Name is Jose Rosas</h1>
+
+        <p>
+          I am a Software Developer from Dallas, Texas. I am excited to apply my
+          passion for learning to bust into the Web-Dev industry! If I'm not
+          studying, I am playing video games, exercising, or mindlessly watching
+          youtube videos!
+        </p>
+      </div>
+    </StyledHeader>
+  );
+};
+
+export default Header;
