@@ -4,6 +4,7 @@ export const StyledHeader = styled.header `
     background-color: ${({theme}) => theme.titleColor};
     color: ${({theme}) => theme.tagLineColor};
     height:50vh;
+    font-size: .75rem;
 `;
 
 export const Nav = styled.nav`
@@ -13,7 +14,8 @@ export const Nav = styled.nav`
     justify-content:space-between;
     margin-bottom: 40px;
 
-    @media(max-width: ${({theme}) => theme.mobile}) {
-        flex-direction: column;
-    }
 `
+
+export const Main = styled.main `
+    
+`;
