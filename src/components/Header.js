@@ -1,6 +1,7 @@
 import React from "react";
 import { StyledHeader, Nav, Main } from "./styles/Header.styled";
 
+
 const Header = () => {
   return (
     <StyledHeader>

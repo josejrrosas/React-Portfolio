@@ -1,18 +1,32 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header `
-    background-color: ${({theme}) => theme.titleColor};
     color: ${({theme}) => theme.tagLineColor};
-    height:50vh;
-    font-size: .75rem;
+    margin: auto;
 `;
 
 export const Nav = styled.nav`
-    background-color: ${({theme}) => theme.pageBackground};
     display:flex;
     align-items:center;
-    justify-content:space-between;
-    margin-bottom: 40px;
+    margin:-2% auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    border:1px solid black;
+
+    ul {
+        display: inline-flex;
+        justify-content: space-evenly;
+        margin: 0px auto;
+        width: 100vw;
+        border:1px solid blue;
+
+    }
+ 
+    ul li {        
+        text-decoration: none;
+        list-style: none;
+        border:1px solid green;
+    }
 
 `
 
