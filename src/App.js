@@ -8,6 +8,7 @@ import Home from "./Pages/Home.js"
 import About from "./Pages/About.js"
 import Contact from "./Pages/Contact.js"
 import Projects from "./Pages/Projects.js"
+import ErrorPage from "./Pages/ErrorPage.js"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const LightTheme = {
@@ -39,6 +40,7 @@ function App() {
           <Route path = "/about" element={<About />} />
           <Route path = "/projects" element={<Projects />} />
           <Route path = "/contact" element={<Contact />} />
+          <Route path = "*" element={<ErrorPage />} />
         </Routes>
       </Router>
     </ThemeProvider>

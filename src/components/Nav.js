@@ -1,14 +1,13 @@
 import React from 'react'
-import { StyledNav } from "./styles/Nav.styled";
-
+import { StyledNav ,StyledLink} from "./styles/Nav.styled"
 const Nav = () => {
   return (
     <StyledNav>
         <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+            <li><StyledLink to ="/">Home</StyledLink></li>
+            <li><StyledLink to ="/about">About</StyledLink></li>
+            <li><StyledLink to ="/projects">Projects</StyledLink></li>
+            <li><StyledLink to ="/contact">Contact</StyledLink></li>
         </ul>
     </StyledNav>
   )
