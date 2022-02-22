@@ -1,17 +1,10 @@
 import React from "react";
-import { StyledHeader, Nav, Main } from "./styles/Header.styled";
+import { StyledHeader, Main } from "./styles/Header.styled";
 
 
 const Header = () => {
   return (
     <StyledHeader>
-      <Nav>
-        <ul>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
-      </Nav>
       <Main>
         <div>
           <h1>My Name is Jose Rosas</h1>

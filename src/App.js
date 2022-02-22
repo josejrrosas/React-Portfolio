@@ -3,7 +3,12 @@ import { ThemeProvider } from "styled-components";
 import { useState } from "react"
 import Toggle from "./Components/Toggle"
 import GlobalStyles from "./Components/styles/Global"
-import Header from "./Components/Header.js";
+import Nav from "./Components/Nav"
+import Home from "./Pages/Home.js"
+import About from "./Pages/About.js"
+import Contact from "./Pages/Contact.js"
+import Projects from "./Pages/Projects.js"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const LightTheme = {
   pageBackground: "white",
@@ -26,8 +31,16 @@ function App() {
   return (
     <ThemeProvider theme = {themes[theme]}>
       <GlobalStyles/>
-      <Toggle theme = {theme} setTheme = {setTheme} />
-      <Header />
+        <Router>
+        <Toggle theme = {theme} setTheme = {setTheme} />
+          <Nav />
+        <Routes>
+          <Route path = "/" element={<Home />} />
+          <Route path = "/about" element={<About />} />
+          <Route path = "/projects" element={<Projects />} />
+          <Route path = "/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </ThemeProvider>
   );
 }
