@@ -5,6 +5,10 @@ export const StyledHeader = styled.header `
     margin: auto;
 `;
 
+export const Image = styled.img`
+    height:300px;
+    border-radius: 50%;
+`
 
 export const Main = styled.main `
     

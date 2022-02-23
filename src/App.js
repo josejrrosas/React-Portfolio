@@ -12,14 +12,14 @@ import ErrorPage from "./Pages/ErrorPage.js"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const LightTheme = {
-  pageBackground: "white",
-  titleColor: "#dc658b",
-  tagLineColor: "black"
+  baseColor: "white",
+  accentColor: "silver",
+  wordColor: "black"
 }
 const DarkTheme = {
-  pageBackground: "#282c36",
-  titleColor: "lightpink",
-  tagLineColor: "lavendar"
+  baseColor: "black",
+  accentColor: "grey",
+  wordColor: "white"
 }
 
 const themes = {

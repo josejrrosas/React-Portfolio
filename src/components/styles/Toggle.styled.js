@@ -6,8 +6,8 @@ export const ToggleStyle = styled.button `
     width:30px;
     border-radius:50%;
     border:none;
-    background-color: ${props => props.theme.titleColor};
-    color: ${props => props.theme.pageBackground};
+    background-color: ${props => props.theme.accentColor};
+    color: ${props => props.theme.wordColor};
     font-size:10px;
     
     &:focus {

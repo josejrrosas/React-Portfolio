@@ -7,7 +7,6 @@ export const StyledNav = styled.nav`
     margin:-2% auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    border:1px solid black;
     margin-bottom:2%;
 
     ul {
@@ -22,6 +21,6 @@ export const StyledNav = styled.nav`
     }
 `
 export const StyledLink = styled(Link)`
-  color: ${({theme}) => theme.tagLineColor};
+  color: ${({theme}) => theme.wordColor};
   text-decoration: none;
 `;

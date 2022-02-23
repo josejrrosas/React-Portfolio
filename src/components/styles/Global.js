@@ -8,8 +8,8 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body{
-        background: ${({theme}) => theme.pageBackground};
-        color:  ${({theme}) => theme.tagLineColor};
+        background: ${({theme}) => theme.baseColor};
+        color:  ${({theme}) => theme.wordColor};
         font-family: 'Poppins', sans-serif;
         font-size: 1.15em;
         margin:0;

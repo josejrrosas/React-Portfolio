@@ -1,22 +1,21 @@
 import React from "react";
-import { StyledHeader, Main } from "./styles/Header.styled";
-
+import { StyledHeader, Image } from "./styles/Header.styled";
+import pic from "../images/Its Me.jpeg"
 
 const Header = () => {
   return (
     <StyledHeader>
-      <Main>
-        <div>
-          <h1>My Name is Jose Rosas</h1>
+       <Image src={pic} alt=''/>  
 
+        <div id="headerInfo">
+          <h1>Jose Rosas,</h1>
+          <h2>web developer</h2>
           <p>
-            I am a Software Developer from Dallas, Texas. I am excited to apply
-            my passion for learning to bust into the Web-Dev industry! If I'm
-            not studying, I am playing video games, exercising, or mindlessly
-            watching youtube videos!
+            I’m a Web Developer based in Dallas, Texas. My goal is to become
+            proficient using the MERN stack. Developing applications for the
+            web has become my drive.
           </p>
         </div>
-      </Main>
     </StyledHeader>
   );
 };
