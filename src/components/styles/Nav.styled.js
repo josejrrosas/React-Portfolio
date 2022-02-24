@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const StyledNav = styled.nav`
     display:flex;
     align-items:center;
-    margin:-2% auto;
+    margin:auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     margin-bottom:2%;
@@ -23,4 +23,8 @@ export const StyledNav = styled.nav`
 export const StyledLink = styled(Link)`
   color: ${({theme}) => theme.wordColor};
   text-decoration: none;
+
+  &:hover{
+      opacity: .7;
+  }
 `;

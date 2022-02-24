@@ -5,11 +5,13 @@ import pic from "../images/Its Me.jpeg"
 const Header = () => {
   return (
     <StyledHeader>
-       <Image src={pic} alt=''/>  
+      <div id = "self-image">
+        <Image src={pic} alt=''/>  
+      </div>
 
         <div id="headerInfo">
-          <h1>Jose Rosas,</h1>
-          <h2>web developer</h2>
+          <h2>Jose Rosas,</h2>
+          <h1>web developer</h1>
           <p>
             I’m a Web Developer based in Dallas, Texas. My goal is to become
             proficient using the MERN stack. Developing applications for the
