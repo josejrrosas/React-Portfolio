@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { useState } from "react"
 import Toggle from "./Components/Toggle"
 import GlobalStyles from "./Components/styles/Global"
+import Footer from "./Components/Footer"
 import Nav from "./Components/Nav"
 import Home from "./Pages/Home.js"
 import About from "./Pages/About.js"
@@ -43,6 +44,7 @@ function App() {
           <Route path = "*" element={<ErrorPage />} />
         </Routes>
       </Router>
+        <Footer />
     </ThemeProvider>
   );
 }

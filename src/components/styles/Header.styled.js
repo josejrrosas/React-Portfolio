@@ -17,6 +17,7 @@ export const StyledHeader = styled.header`
 
   h1 {
     margin: 0px;
+    margin-bottom: 50px;
     font-size: 80px;
     background: linear-gradient(
       to right,
@@ -66,6 +67,7 @@ export const StyledHeader = styled.header`
   p {
     font-size: 12px;
     line-height: 1.5;
+    margin-bottom: 50px;
   }
 `;
 
