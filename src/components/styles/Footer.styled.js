@@ -1,22 +1,22 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  height: auto;
 `;
 
 export const StyledSocialIcons = styled.div`
-  div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
+
 
   li {
     list-style: none;
-    margin:5px;
+    padding:0px;
   }
 
   a {
@@ -27,6 +27,7 @@ export const StyledSocialIcons = styled.div`
     align-items: center;
     justify-content: center;
     margin-right: 10px;
+    margin-bottom:10px;
     height: 40px;
     width: 40px;
     text-decoration: none;

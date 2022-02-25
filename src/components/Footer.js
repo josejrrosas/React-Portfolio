@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <StyledFooter>
       <StyledSocialIcons>
-        <div>
           <li>
             <a href="https://twitter.com/JoseRosas_Jr">
               <FaTwitter />
@@ -22,7 +21,6 @@ const Footer = () => {
               <FaLinkedin />
             </a>
           </li>
-        </div>
       </StyledSocialIcons>
     </StyledFooter>
   );
