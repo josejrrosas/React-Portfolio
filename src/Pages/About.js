@@ -27,8 +27,7 @@ const About = () => {
       <div id="skills">
         <h2>Skills</h2>
         <h3>
-          Experience in some of the most highly sought after web development
-          technologies.
+          Experience in many in-demand Web Development technologies!
         </h3>
         <Logos>
           <ul id="logos">
