@@ -1,6 +1,20 @@
 import React from "react";
-import { StyledAbout, Logos } from "../Components/styles/About.styled";
-import { SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
+import { StyledAbout, Logos, Image } from "../Components/styles/About.styled";
+
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiNodedotjs,
+  SiBootstrap,
+  SiMongodb,
+  SiGit,
+  SiMysql,
+} from "react-icons/si";
+
+import Smu from "../images/smu horse.png"
+import Uta from "../images/uta horse.png"
 
 const About = () => {
   return (
@@ -16,19 +30,24 @@ const About = () => {
       </div>
 
       <div id="education">
-        <h2>Education</h2>
-        <h3>Southern Methodist University</h3>
-        <p>Full-Stack Web Development Certificate</p>
+        <div>
+          <h2>Education</h2>
+          <h3>Southern Methodist University</h3>
+          <p>Full-Stack Web Development Certificate</p>
 
-        <h3>University of Texas at Arlington</h3>
-        <p>Bachelors of Science in Information Systems</p>
+          <h3>University of Texas at Arlington</h3>
+          <p>Bachelors of Science in Information Systems</p>
+        </div>
+
+        <div>
+        <Image src={Uta} alt='Jose Rosas'/>  
+        <Image src={Smu} alt='Jose Rosas'/>  
+        </div>
       </div>
 
       <div id="skills">
         <h2>Skills</h2>
-        <h3>
-          Experience in many in-demand Web Development technologies!
-        </h3>
+        <h3>Experience in many in-demand Web Development technologies!</h3>
         <Logos>
           <ul id="logos">
             <li>
@@ -42,6 +61,30 @@ const About = () => {
             <li>
               <SiJavascript />
               <p>Javascript</p>
+            </li>
+            <li>
+              <SiReact />
+              <p>React</p>
+            </li>
+            <li>
+              <SiNodedotjs />
+              <p>NodeJs</p>
+            </li>
+            <li>
+              <SiBootstrap />
+              <p>Bootstrap</p>
+            </li>
+            <li>
+              <SiMongodb />
+              <p>MongoDB</p>
+            </li>
+            <li>
+              <SiGit />
+              <p>Git</p>
+            </li>
+            <li>
+              <SiMysql />
+              <p>MySql</p>
             </li>
           </ul>
         </Logos>

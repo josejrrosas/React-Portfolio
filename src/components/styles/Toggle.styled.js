@@ -9,7 +9,7 @@ export const ToggleStyle = styled.button `
     background-color: ${props => props.theme.wordColor};
     color: ${props => props.theme.baseColor};
     font-size:10px;
-    margin:5px;
+    /* margin:5px; */
     
     &:focus {
         outline: none;

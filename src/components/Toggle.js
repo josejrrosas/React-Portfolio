@@ -16,7 +16,7 @@ function Toggle(props) {
 
   return (
     <ToggleStyle id="toggle" onClick={changeTheme}>
-      light
+      dark
     </ToggleStyle>
   )
 }

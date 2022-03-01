@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  color: ${({ theme }) => theme.tagLineColor};
+  color: ${({ theme }) => theme.wordColor};
   margin: auto 5%;
   display: grid;
   grid-template-columns: 50% 50%;

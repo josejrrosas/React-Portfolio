@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <StyledHeader>
       <div id = "self-image">
-        <Image src={pic} alt=''/>  
+        <Image src={pic} alt='Jose Rosas'/>  
       </div>
 
         <div id="headerInfo">

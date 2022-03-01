@@ -20,44 +20,55 @@ export const StyledAbout = styled.div`
   }
 
   margin: 5%;
-  padding:5%;
+  padding: 5%;
   border: 9px double orange;
-  border-radius:10%;
+  border-radius: 10%;
   animation: borderRainbow 5s infinite;
 
-  h1{
-    font-size: 3rem;
-    margin:0px;
+  div{
+      margin-bottom:7%;
   }
 
-  h2{
+  h1 {
+    font-size: 3rem;
+    margin: 0px;
+  }
+
+  h2 {
     font-size: 2rem;
-    margin:7% auto 0% auto;
+    margin-top:0px;
     margin-bottom: 0px;
   }
 
-  h3{
+  h3 {
     font-size: 1rem;
     margin-bottom: 0px;
   }
 
-  ul {
-    list-style: none;
-    display: flex;
-  }
-
   p {
     margin: 0px;
-    padding:0px;
-    font-size: .75rem;
+    padding: 0px;
+    font-size: 0.75rem;
   }
 
   #skills {
     margin-bottom: 10%;
+    h3 {
+      text-align: center;
+    }
+  }
+
+  #education{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
   }
 `;
 
 export const Logos = styled.div`
+  overflow: hidden;
+
   @keyframes rainbow-color {
     0% {
       color: red;
@@ -86,13 +97,22 @@ export const Logos = styled.div`
     }
   }
 
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 40px 10px;
+    padding: 0px;
+  }
+
   li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    width: min-content;
+    margin: 5px;
+    width: auto;
   }
 
   svg {
@@ -100,5 +120,10 @@ export const Logos = styled.div`
     width: 40px;
     animation: rainbow-color 5s infinite;
   }
+`;
 
+
+
+export const Image = styled.img`
+  height:150px;
 `;
