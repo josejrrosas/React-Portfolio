@@ -47,8 +47,14 @@ export const StyledAbout = styled.div`
 
   p {
     margin: 0px;
-    padding: 0px;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  #about{
+    margin-bottom: 10%;
+    p{
+      width:50%;
+    }
   }
 
   #skills {
