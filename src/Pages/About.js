@@ -1,5 +1,13 @@
 import React from "react";
 import { StyledAbout, Logos, Image } from "../Components/styles/About.styled";
+import Tab from 'react-bootstrap/Tab'
+import Tabs from 'react-bootstrap/Tabs'
+import TabContainer from 'react-bootstrap/TabContainer'
+import TabContent from 'react-bootstrap/TabContent'
+import TabPane from 'react-bootstrap/TabPane'
+import Nav from 'react-bootstrap/Nav'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 import {
   SiHtml5,
@@ -13,8 +21,8 @@ import {
   SiMysql,
 } from "react-icons/si";
 
-import Smu from "../images/smu horse.png"
-import Uta from "../images/uta horse.png"
+import Smu from "../images/smu horse.png";
+import Uta from "../images/uta horse.png";
 
 const About = () => {
   return (
@@ -40,8 +48,8 @@ const About = () => {
         </div>
 
         <div>
-        <Image src={Uta} alt='Jose Rosas'/>  
-        <Image src={Smu} alt='Jose Rosas'/>  
+          <Image src={Uta} alt="Jose Rosas" />
+          <Image src={Smu} alt="Jose Rosas" />
         </div>
       </div>
 
@@ -89,6 +97,42 @@ const About = () => {
           </ul>
         </Logos>
       </div>
+
+      <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+        <Row>
+          <Col sm={3}>
+            <Nav variant="pills" className="flex-column">
+              <Nav.Item>
+                <Nav.Link eventKey="first">Tab 1</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="second">Tab 2</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="third">Tab 3</Nav.Link>
+              </Nav.Item>
+            </Nav>
+          </Col>
+          <Col sm={9}>
+            <Tab.Content>
+
+              <Tab.Pane eventKey="first">
+                poop
+              </Tab.Pane>
+
+              <Tab.Pane eventKey="second">
+                caca
+              </Tab.Pane>
+
+              <Tab.Pane eventKey="third">
+                pp
+              </Tab.Pane>
+
+
+            </Tab.Content>
+          </Col>
+        </Row>
+      </Tab.Container>
     </StyledAbout>
   );
 };

@@ -4,17 +4,17 @@ import ListGroup from "react-bootstrap/ListGroup";
 import {StyledCard} from "./styles/Card.styled";
 
 const CardComp = ({
-  item: { title, description, skills, github, deployedSite },
+  item: { title, image, description, skills, github, deployedSite },
 }) => {
   return (
     <StyledCard>
       <Card
         border="secondary"
         bg="dark"
-        style={{ width: "18rem", height: '400px' }}
+        style={{ width: "18rem", height: 'fit-content' }}
         text="light"
       >
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Img style={{height:'50%'}} variant="top" src={image}/>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
