@@ -9,20 +9,21 @@ const CardComp = ({
   return (
     <StyledCard>
       <Card
+        className="p-3"
         border="secondary"
         bg="dark"
-        style={{ width: "18rem", height: 'fit-content' }}
+        style={{ width: "18rem", height: 'fit-content'}}
         text="light"
       >
-        <Card.Img style={{height:'50%'}} variant="top" src={image}/>
-        <Card.Body>
+        <Card.Img style={{height:'200px'}} variant="top" src={image}/>
+        <Card.Body style={{height:'150'}}>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
         </Card.Body>
-        <ListGroup className="list-group-flush">
-          <ListGroup.Item>Skills used : {skills}</ListGroup.Item>
+        <ListGroup style={{height:'100'}} className="list-group-flush">
+          <ListGroup.Item style={{height:'100'}}>Skills used : {skills}</ListGroup.Item>
         </ListGroup>
-        <Card.Body>
+        <Card.Body >
           <Card.Link href="#">
             <a href={deployedSite}>Check it out!</a>
           </Card.Link>
