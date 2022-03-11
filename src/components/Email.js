@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <Form className="d-flex flex-column align-items-center justify-content-center">
         <Form.Group
-          className="w-50 border border-dark rounded p-2 pb-3 bg-primary"
+          className="w-50 border border-dark rounded p-3 pb-4 bg-primary"
           controlId="exampleForm.ControlInput1"
         >
           <Form.Label>Enter your Email address</Form.Label>
@@ -18,7 +18,7 @@ const Header = () => {
         </Form.Group>
 
         <Form.Group
-          className="mt-3 w-50 border border-dark rounded p-2 pb-5 bg-primary"
+          className="mt-3 w-50 border border-dark rounded p-3 pb-5 bg-primary"
           controlId="exampleForm.ControlTextarea1"
         >
           <Form.Label>Write your message...</Form.Label>
