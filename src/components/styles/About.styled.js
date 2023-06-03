@@ -42,11 +42,12 @@ export const StyledAbout = styled.div`
 
   h3 {
     font-size: 1rem;
-    margin-bottom: 0px;
+    margin-bottom: 2%;
+    font-weight: 700;
   }
 
   p {
-    margin: 0px;
+    margin-bottom: 7%;
     font-size: 0.9rem;
   }
 

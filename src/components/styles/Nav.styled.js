@@ -26,5 +26,6 @@ export const StyledLink = styled(Link)`
 
   &:hover{
       opacity: .7;
+      text-decoration:none;
   }
 `;
