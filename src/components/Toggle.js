@@ -5,18 +5,20 @@ function Toggle(props) {
     function changeTheme(){
         if(props.theme === "light"){
             props.setTheme("dark");
-            document.getElementById("toggle" ).innerHTML = "dark"
+            document.getElementById("toggle" ).innerHTML = '🌚'
+            document.getElementById("toggle" ).backgroundColor = 'black'
         }
         else{
             props.setTheme("light")
-            document.getElementById("toggle" ).innerHTML = "light"
+            document.getElementById("toggle" ).innerHTML = "🌞"
+            document.getElementById("toggle" ).backgroundColor = 'white'
 
         }
     };
 
   return (
     <ToggleStyle id="toggle" onClick={changeTheme}>
-      dark
+      🌚
     </ToggleStyle>
   )
 }

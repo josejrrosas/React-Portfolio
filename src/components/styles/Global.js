@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import bgImage from '../../images/cybersec.jpeg'
 
 const GlobalStyles = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
@@ -7,12 +8,15 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body{
-        background: ${({theme}) => theme.baseColor};
+    html,body{
+        background-image: url(${bgImage});
+        box-shadow:${({theme}) => theme.overlayColor};
+        background-size: cover;
         color:  ${({theme}) => theme.wordColor};
         font-family: 'Poppins', sans-serif;
         font-size: 1.15em;
-        margin:0;
+        min-height: 100%;
+        margin: 0;
     }
 `;
 

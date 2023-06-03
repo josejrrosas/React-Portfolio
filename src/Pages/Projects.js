@@ -5,7 +5,7 @@ import projectsObj from "../utils/projectObjects.js";
 
 const Projects = () => {
   return (
-      <Carousel fade className="d-block w-50 m-auto">
+      <Carousel fade className="d-block w-50 m-auto h-auto">
         {projectsObj.map((item, index) => (
           <Carousel.Item>
             <CardComp key={index} item={item} />

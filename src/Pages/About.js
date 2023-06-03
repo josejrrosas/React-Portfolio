@@ -1,10 +1,6 @@
 import React from "react";
 import { StyledAbout, Logos, Image } from "../Components/styles/About.styled";
 import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
-import TabContainer from "react-bootstrap/TabContainer";
-import TabContent from "react-bootstrap/TabContent";
-import TabPane from "react-bootstrap/TabPane";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -51,11 +47,18 @@ const About = () => {
               <Tab.Pane eventKey="about">
                 <div id="about">
                   <p>
-                    My name is Jose Rosas. I am a Web Developer from Dallas,
-                    Texas. I am excited to apply my passion for learning to bust
-                    into the Web-Dev industry! If I'm not studying, I am
-                    exercising, playing video games , or mindlessly watching
-                    youtube videos!
+                    I am an accomplished mobile device administrator with a
+                    diverse professional background, including experience as a
+                    business intelligence analyst. With a strong foundation in
+                    mobile device management, I possess a keen understanding of
+                    business processes and data analysis. Alongside my
+                    expertise, I hold certifications in CompTIA Security+ and
+                    have completed a web development bootcamp, demonstrating my
+                    commitment to expanding my skill set. Currently, I am
+                    actively seeking a new opportunity in the field of
+                    cybersecurity to leverage my combined knowledge of mobile
+                    device administration, business intelligence, and web
+                    development.
                   </p>
                 </div>
               </Tab.Pane>

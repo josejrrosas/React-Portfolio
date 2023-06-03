@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  position: relative;
-  bottom: 0;
+  position: fixed;
+  bottom: 0px;
   width: 100%;
-  height: auto;
 `;
 
 export const StyledSocialIcons = styled.div`
