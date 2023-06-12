@@ -11,12 +11,12 @@ const Header = () => {
 
       <div id="headerInfo">
         <h2>Jose Rosas,</h2>
-        <h1>Aspiring Cybersecurity Professional </h1>
+        <h1>Aspiring Software Developer! </h1>
         <p>
           I am a dynamic mobile device administrator with a diverse background
           encompassing experience in business intelligence analysis. Certified
-          in CompTIA Security+ and armed with a web development bootcamp
-          certificate.
+          in CompTIA Security+ and armed with a Web Development bootcamp
+          certificate. Learning is my passion!
         </p>
       </div>
     </StyledHeader>

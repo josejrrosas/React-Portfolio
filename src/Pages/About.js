@@ -45,7 +45,7 @@ const About = () => {
           <Col sm={9}>
             <Tab.Content>
               <Tab.Pane eventKey="about">
-                <div id="about">
+                <div id="about">s
                   <p>
                     I am an accomplished mobile device administrator with a
                     diverse professional background, including experience as a
@@ -55,10 +55,16 @@ const About = () => {
                     expertise, I hold certifications in CompTIA Security+ and
                     have completed a web development bootcamp, demonstrating my
                     commitment to expanding my skill set. Currently, I am
-                    actively seeking a new opportunity in the field of
-                    cybersecurity to leverage my combined knowledge of mobile
-                    device administration, business intelligence, and web
-                    development.
+                    actively seeking a new opportunity to leverage my combined
+                    knowledge of mobile device administration, business
+                    intelligence, and web development.
+                  </p>
+                  <p>
+                    On my down time I often find myself searching for something
+                    to learn on youtube or just going down random rabbit holes.
+                    I tend to get lost in code whenever I find something I enjoy
+                    coding. I also enjoy sports, staying active, and nature. I especially
+                    enjoy baseball, lifting, and bowling!
                   </p>
                 </div>
               </Tab.Pane>

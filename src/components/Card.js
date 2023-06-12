@@ -9,7 +9,7 @@ const CardComp = ({
   return (
     <StyledCard>
       <Card
-        className="p-3 m-auto"
+        className="p-3 m-auto mb-5"
         border="secondary"
         bg="dark"
         style={{ width: "18rem", height: "fit-content" }}

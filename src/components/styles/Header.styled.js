@@ -65,7 +65,7 @@ export const StyledHeader = styled.header`
   }
 
   p {
-    font-size: 12px;
+    font-size: .8em;
     line-height: 1.5;
     margin-bottom: 50px;
   }
