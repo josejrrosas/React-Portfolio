@@ -47,7 +47,7 @@ export const StyledAbout = styled.div`
   }
 
   p {
-    margin-bottom: 7%;
+    margin-bottom: 3%;
     font-size: 0.9rem;
   }
 
