@@ -45,7 +45,7 @@ const About = () => {
           <Col sm={9}>
             <Tab.Content>
               <Tab.Pane eventKey="about">
-                <div id="about">s
+                <div id="about">
                   <p>
                     I am an accomplished mobile device administrator with a
                     diverse professional background, including experience as a
