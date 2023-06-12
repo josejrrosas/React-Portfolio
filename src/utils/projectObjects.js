@@ -13,7 +13,7 @@ const projectsObj = [
       "This is a tech blog. Create an account. Write and view blogs and comment on them!",
     skills: "MYSQL,Sequelize, Bcrypt, Express.js,Node.js",
     github: "https://github.com/josejrrosas/Tech-Blog/blob/main/README.md",
-    deployedSite: "https://afternoon-waters-30602.herokuapp.com/",
+    deployedSite: "https://tech-blog-josejrrosas.up.railway.app/",
   },
   {
     title: "Palette-Cleanser",
